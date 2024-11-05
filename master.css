@@ -109,8 +109,11 @@ nav ul li a:hover {
 
 .book-card img {
   width: 100%;
+  height: auto;
+  object-fit: cover;
   border-radius: 10px;
 }
+
 
 .book-card h3 {
   margin-top: 10px;
@@ -119,15 +122,13 @@ nav ul li a:hover {
 }
 
 .book-card:hover {
-  transform: scale(1.05);
+  transform: scale(2);
   background-color: #333333;
 }
 
 .book-card:active {
-  transform: scale(0.95);
+  transform: scale(1);
 }
-
-
 
 .book-info {
   position: absolute;
